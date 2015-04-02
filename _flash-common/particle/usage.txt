@@ -1,0 +1,13 @@
+import com.greensock.TweenNano;
+
+import de.flashmen.fmParticle;
+
+
+holder.alpha = 0;
+
+
+var tmp1:fmParticle = new fmParticle({length:100, height:10, x:100, y:280, dir:"up"});
+
+holder.addChild(tmp1);
+
+tmp1.init();

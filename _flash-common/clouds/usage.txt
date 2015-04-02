@@ -1,0 +1,21 @@
+import com.flashandmath.dg.GUI.MovingClouds;
+
+var posX:Number=0;
+var posY:Number=0;
+
+var clouds1:MovingClouds = new MovingClouds(600,600,2,1,false);
+clouds1.x = posX;
+clouds1.y = posY;
+clouds1.alpha = 0.24;
+
+/*var clouds2:MovingClouds = new MovingClouds(600,600,1,0,false);
+clouds2.x = posX;
+clouds2.y = posY;
+clouds2.alpha = 0.2;*/
+
+//this.addChild(clouds2);
+this.addChild(clouds1);
+
+mask1.cacheAsBitmap = true;
+clouds1.cacheAsBitmap = true;
+clouds1.mask = mask1;

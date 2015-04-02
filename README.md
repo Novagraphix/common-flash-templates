@@ -1,1 +1,1 @@
-# common-flash-templates
+# [NOVAGRAPHIX FLASH TEMPLATES](http://novagraphix.de)
