@@ -26,7 +26,6 @@
     }();
 
     mc.clicktag.addEventListener(MouseEvent.CLICK, function(event: MouseEvent): void {
-        var sURL: String;
         var sTarget: String = "_blank";
         if (root.loaderInfo.parameters.clicktarget) sTarget = root.loaderInfo.parameters.clicktarget;
         if (ct[0]) {
