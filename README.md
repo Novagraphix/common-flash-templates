@@ -45,8 +45,7 @@
 ## Noch ein Ansatz
 
     function getClickTag():String {
-        for (var key:String in root.loaderInfo.parameters)
-        {
+        for (var key:String in root.loaderInfo.parameters) {
             if(key.toLowerCase()=="clicktag")
                 return root.loaderInfo.parameters[key];
         }
@@ -60,8 +59,7 @@
 ## Für mehrere Clicktags (clicktag1, clicktag2, etc)
 
     function getClickTag(cnt:uint):String {
-        for (var key:String in root.loaderInfo.parameters)
-        {
+        for (var key:String in root.loaderInfo.parameters) {
             if(key.toLowerCase()=="clicktag" + cnt)
                 return root.loaderInfo.parameters[key];
         }
